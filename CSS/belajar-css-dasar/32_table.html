@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border-style: solid;
+        border-width: 2px;
+        /* margin: 0px;
+        padding: 0px; */
+        border-collapse: collapse;
+      }
+
+      table {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+      }
+
+      tr:hover {
+        background-color: tomato;
+      }
+
+      .ganjil {
+        background-color: grey;
+      }
+
+      .genap {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Nilai</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="ganjil">
+          <td>Richo</td>
+          <td>-98</td>
+        </tr>
+        <tr class="genap">
+          <td>Anjas</td>
+          <td>78</td>
+        </tr>
+        <tr class="ganjil">
+          <td>Anjas</td>
+          <td>78</td>
+        </tr>
+        <tr class="genap">
+          <td>Anjas</td>
+          <td>78</td>
+        </tr>
+        <tr class="ganjil">
+          <td>Anjas</td>
+          <td>78</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

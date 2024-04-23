@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sibling</title>
+    <style>
+      div ~ p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <article>
+        <p>Ini tidak dipilih</p>
+      </article>
+      <p>Ini tidak dipilih</p>
+    </div>
+    <p>Ini dipilih</p>
+    <p>Ini dipilih</p>
+  </body>
+</html>
